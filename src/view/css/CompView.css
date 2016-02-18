@@ -1,0 +1,265 @@
+
+.root{
+    -fx-font-size: 14px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+	-fx-text-fill: #403152;
+	-fx-background-color: #F0F8FF;	
+}
+
+.pane-bg {
+	-fx-background-color: #F0F8FF;	
+}
+
+.chart-border {
+	-fx-border-color: rgb(200, 200, 200);
+	-fx-border-width: 1;
+	-fx-border-radius: 3;	
+}
+
+.border {
+	-fx-border-color: rgb(127, 127, 127);
+	-fx-border-width: 1;
+	-fx-border-radius: 3;	
+}
+
+.title-border-bg {
+	-fx-border-color: rgba(240,255,240);
+	-fx-border-width: 1;
+	-fx-border-radius: 3;	
+	-fx-background-color: rgba(240,255,240,0.7);
+}
+
+.title_lbl {
+    -fx-font-size: 16px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+    -fx-font-weight: bold;	
+	-fx-text-fill: #5bc0de;
+}
+
+.error_label {
+    -fx-font-size: 13px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+	-fx-text-fill: red;
+}
+
+.logo {
+	-fx-background-image: url("../images/logo.png"); 
+	-fx-opacity: 0.2;
+	-fx-background-repeat: no-repeat; 
+	-fx-background-position: center;
+}
+
+/* Label */
+.label {
+	-fx-font-size: 14px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+	/* -fx-text-fill: #403152; */
+}
+
+/* List View */
+.list-cell { 
+	-fx-text-fill: rgb(0,32,96);
+	-fx-font-size: 14px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: rgb(195,209,235);
+}
+.list-cell:odd { 
+    -fx-cell-hover-color: #0093ff;
+	-fx-background-color: rgb(246,248,252); 
+}
+.list-cell:even { 
+    -fx-cell-hover-color: #0093ff;
+	-fx-background-color: white; 
+}
+.list-cell:filled:hover { 
+    -fx-background-color: rgb(218,227,243);
+}
+
+/* ComboBox*/
+.combo-box-base  {
+	-fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+    -fx-font-weight: bold;
+	-fx-background-color: linear-gradient(rgb(101,189,225), rgb(0,112,192));
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.2) , 5, 0.0 , 0 , 1 );
+}
+
+.combo-box .list-cell {
+	-fx-background: white;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+.combo-box-popup .list-view {
+	-fx-background-color: white, white;
+	-fx-background-insets: 0, 1;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+} 
+
+.combo-box-popup .list-view .list-cell {
+	-fx-padding: 4 0 4 5;
+	-fx-text-fill: rgb(0,32,96);
+	-fx-background-color: white;
+}
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover {
+	-fx-background: -fx-accent;
+	-fx-background-color: -fx-selection-bar;
+	-fx-text-fill: -fx-selection-bar-text;
+}
+.combo-box-popup .list-view .list-cell:filled:hover {
+	-fx-background-color: white;
+	-fx-text-fill: -fx-text-inner-color;
+}
+
+/* Button */
+.button   {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+    -fx-font-weight: bold;
+    
+	-fx-background-color: linear-gradient(rgb(101,189,225), rgb(0,112,192));
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.2) , 5, 0.0 , 0 , 1 ); 
+}
+ 
+.button:hover {
+	-fx-background-color: linear-gradient(rgb(0,112,192), rgb(101,189,225));
+}
+
+.text-field {
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.2), 5, 0.0, 0, 1);	
+}
+
+/* Table View */
+.table-view {
+    -fx-base: rgb(255,255,255);
+    -fx-font-size: 12px;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+    /* -fx-control-inner-background: #1d1d1d; */
+    -fx-background-color: rgb(255,255,255);
+	
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 25;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: transparent transparent derive(-fx-base, 80%) transparent;
+	-fx-background-color: linear-gradient(rgb(78,156,156), rgb(145,200,200));
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+	-fx-font-weight: bold;	
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.table-view:empty {
+	-fx-background-color: white;
+}
+
+.table-row-cell:odd {
+	-fx-background-color: rgb(214,234,234);
+}
+
+.table-row-cell .table-cell {
+	-fx-background-color: transparent;
+	-fx-border-width: 1px;
+	-fx-border-color: rgb(235,245,245);
+	-fx-padding: 1 1 1 1;
+}
+
+/* Tab */
+.tab-pane .tab-header-area .tab-header-background {
+-fx-background-color: 
+        #a6b5c9,
+        linear-gradient(#768aa5 0%, #849cbb 5%, #5877a2 50%, #486a9a 51%, #4a6c9b 100%);
+}
+
+.tab-pane .tab {
+	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));	
+}
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+.tab-pane .tab:selected {
+	-fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));	
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+	-fx-background-color: transparent;
+    -fx-font-weight: bold;	
+}
+
+/* Chart */
+.chart-content {
+	-fx-background-color: transparent;
+	-fx-padding: 0px;
+}
+.chart-plot-background {
+    -fx-background-color: rgba(240,255,240, 0.5);
+}
+.axis {
+    /*-fx-font-size: 10px;   */
+    -fx-tick-label-fill: #337ab7;
+    /*-fx-font-family: 'Helvetica', "Verdana", "Arial", "Times New Roman"; */
+    -fx-tick-length: 10;
+    -fx-minor-tick-length: 5;
+}
+.axis-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #5bc0de;
+    -fx-font-family: "微軟正黑體", "Microsoft YaHei", 'Helvetica', "Verdana", "Arial", "Times New Roman";
+    -fx-font-weight: bold;
+}
+.axis-tick-mark {
+    -fx-stroke: #777;
+}
+.axis-minor-tick-mark {
+    -fx-stroke: #777;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #eee;
+    -fx-stroke-width: 1;	
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #eee;
+    -fx-stroke-width: 1;	
+}
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+
+
+

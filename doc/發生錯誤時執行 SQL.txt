@@ -1,0 +1,4 @@
+delete from company where vc_townships like 'ªO¾ô%';
+delete from legal_person where vc_townships like 'ªO¾ô%';
+delete from personal where vc_townships like 'ªO¾ô%';
+delete from others where vc_townships like 'ªO¾ô%';

@@ -1,0 +1,215 @@
+<QueryLandInfoUi-config>
+	<!-- 分頁版有用到，先留著 -->
+	<page-size>10000</page-size>
+	
+	<is-for-boss>true</is-for-boss>
+
+	<counties-townships-table>
+		<counties name="台北市(A)" person-table-name="personal_taipei_1">
+			<townships>大安區(02)</townships>
+			<townships>內湖區(14)</townships>
+			<townships>松山區(01)</townships>
+		</counties>
+		
+		<counties name="台北市(A)" person-table-name="personal_taipei_2">
+			<townships>文山區(11)</townships>
+			<townships>士林區(15)</townships>
+			<townships>大同區(09)</townships>
+		</counties>
+		
+		<counties name="台北市(A)" person-table-name="personal_taipei_3">
+			<townships>北投區(16)</townships>
+			<townships>信義區(17)</townships>
+			<townships>南港區(13)</townships>
+		</counties>
+		
+		<counties name="台北市(A)" person-table-name="personal_taipei_4">
+			<townships>萬華區(05)</townships>
+			<townships>中正區(03)</townships>
+			<townships>中山區(10)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_1">
+			<townships>新店區(07)</townships>
+			<townships>泰山區(06)</townships>
+			<townships>烏來區(11)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_2">
+			<townships>中和區(18)</townships>
+			<townships>三重區(05)</townships>
+			<townships>萬里區(26)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_3">
+			<townships>汐止區(28)</townships>
+			<townships>瑞芳區(21)</townships>
+			<townships>金山區(25)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_4">
+			<townships>淡水區(27)</townships>
+			<townships>蘆洲區(04)</townships>
+			<townships>五股區(03)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_5">
+			<townships>土城區(19)</townships>
+			<townships>平溪區(22)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_6">
+			<townships>坪林區(10)</townships>
+			<townships>林口區(02)</townships>
+			<townships>雙溪區(23)</townships>
+			<townships>鶯歌區(16)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_7">
+			<townships>永和區(33)</townships>
+			<townships>貢寮區(24)</townships>
+			<townships>石碇區(08)</townships>
+			<townships>八里區(32)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_8">
+			<townships>板橋區(14)</townships>
+			<townships>石門區(31)</townships>		
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_9">
+			<townships>三峽區(15)</townships>
+			<townships>新莊區(01)</townships>
+		</counties>
+		
+		<counties name="新北市(F)" person-table-name="personal_newtaipei_10">
+			<townships>樹林區(17)</townships>
+			<townships>深坑區(09)</townships>		
+			<townships>三芝區(30)</townships>
+		</counties>
+		
+		<counties name="桃園市(H)" person-table-name="personal_taoyuan_1">
+			<townships>中壢區(03)</townships>
+			<townships>平鎮區(10)</townships>
+			<townships>復興區(13)</townships>
+		</counties>
+		
+		<counties name="桃園市(H)" person-table-name="personal_taoyuan_2">
+			<townships>蘆竹區(05)</townships>
+			<townships>楊梅區(04)</townships>
+		</counties>
+		
+		<counties name="桃園市(H)" person-table-name="personal_taoyuan_3">
+			<townships>龜山區(07)</townships>		
+			<townships>新屋區(11)</townships>
+			<townships>大園區(06)</townships>
+		</counties>
+		
+		<counties name="桃園市(H)" person-table-name="personal_taoyuan_4">
+			<townships>八德區(08)</townships>
+			<townships>龍潭區(09)</townships>			
+			<townships>觀音區(12)</townships>
+		</counties>
+		
+		<counties name="桃園市(H)" person-table-name="personal_taoyuan_5">
+			<townships>桃園區(01)</townships>		
+			<townships>大溪區(02)</townships>
+		</counties>
+	
+		<counties name="台中市(B)" person-table-name="personal_taichung_1">
+			<townships>北屯區(B08)</townships>
+			<townships>北區(B05)</townships>
+			<townships>和平區(L21)</townships>
+			<townships>大里區(L20)</townships>
+			<townships>新社區(L11)</townships>
+		</counties>
+		
+		<counties name="台中市(B)" person-table-name="personal_taichung_2">
+			<townships>西屯區(B06)</townships>
+			<townships>豐原區(L01)</townships>
+			<townships>沙鹿區(L05)</townships>
+			<townships>外埔區(L13)</townships>
+			<townships>石岡區(L12)</townships>
+			<townships>太平區(L19)</townships>
+		</counties>
+		
+		<counties name="台中市(B)" person-table-name="personal_taichung_3">
+			<townships>南屯區(B07)</townships>
+			<townships>南區(B04)</townships>
+			<townships>清水區(L04)</townships>
+			<townships>梧棲區(L06)</townships>
+			<townships>大安區(L14)</townships>
+			<townships>后里區(L08)</townships>
+		</counties>
+		
+		<counties name="台中市(B)" person-table-name="personal_taichung_4">
+			<townships>龍井區(L17)</townships>		
+			<townships>大甲區(L03)</townships>
+			<townships>東勢區(L02)</townships>
+			<townships>大肚區(L16)</townships>
+			<townships>中區(B01)</townships>
+			<townships>東區(B02)</townships>
+		</counties>
+		
+		<counties name="台中市(B)" person-table-name="personal_taichung_5">
+			<townships>西區(B03)</townships>
+			<townships>大雅區(L09)</townships>
+			<townships>烏日區(L15)</townships>
+			<townships>神岡區(L07)</townships>
+			<townships>霧峰區(L18)</townships>		
+		</counties>
+		
+		<counties name="高雄市(E)" person-table-name="personal_kaohsung_1">
+			<townships>三民區(05)</townships>
+			<townships>鳳山區(12)</townships>
+			<townships>甲仙區(33)</townships>
+			<townships>桃源區(37)</townships>
+			<townships>茄萣區(26)</townships>
+			<townships>那瑪夏區(38)</townships>
+			<townships>仁武區(17)</townships>
+			<townships>田寮區(22)</townships>
+		</counties>
+
+		<counties name="高雄市(E)" person-table-name="personal_kaohsung_2">
+			<townships>苓雅區(08)</townships>
+			<townships>彌陀區(28)</townships>
+			<townships>前金區(07)</townships>
+			<townships>鹽埕區(01)</townships>
+			<townships>永安區(27)</townships>
+			<townships>六龜區(32)</townships>
+			<townships>旗津區(10)</townships>
+			<townships>鼓山區(02)</townships>
+			<townships>茂林區(36)</townships>
+		</counties>
+		
+		<counties name="高雄市(E)" person-table-name="personal_kaohsung_3">
+			<townships>左營區(03)</townships>
+			<townships>梓官區(29)</townships>
+			<townships>阿蓮區(23)</townships>
+			<townships>新興區(06)</townships>
+			<townships>燕巢區(21)</townships>
+			<townships>大樹區(15)</townships>
+			<townships>杉林區(34)</townships>
+			<townships>大寮區(14)</townships>
+		</counties>
+		
+		<counties name="高雄市(E)" person-table-name="personal_kaohsung_4">
+			<townships>楠梓區(04)</townships>
+			<townships>內門區(35)</townships>
+			<townships>鳥松區(18)</townships>
+			<townships>橋頭區(20)</townships>
+			<townships>湖內區(25)</townships>
+			<townships>大社區(16)</townships>
+			<townships>路竹區(24)</townships>
+			<townships>旗山區(30)</townships>
+		</counties>
+		
+		<counties name="高雄市(E)" person-table-name="personal_kaohsung_5">
+			<townships>前鎮區(09)</townships>
+			<townships>岡山區(19)</townships>
+			<townships>林園區(13)</townships>
+			<townships>美濃區(31)</townships>
+			<townships>小港區(11)</townships>
+		</counties>
+	</counties-townships-table>
+</QueryLandInfoUi-config>

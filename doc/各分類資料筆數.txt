@@ -1,0 +1,4 @@
+legal_person	35278
+company			263857
+others			1170830
+personal		15117705

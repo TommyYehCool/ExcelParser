@@ -1,0 +1,63 @@
+select count(*) from legal_person;
+select count(*) from company;
+select count(*) from others;
+select count(*) from personal;
+
+------------------------------------------------------------------------
+
+select A.legal_person_counts, B.company_counts, C.others_counts, D.personal_counts from 
+(select count(*) as legal_person_counts from legal_person) A, 
+(select count(*) as company_counts from company) B, 
+(select count(*) as others_counts from others) C, 
+(select count(*) as personal_counts from personal) D;
+
+------------------------------------------------------------------------
+
+select count(distinct(vc_owner)) from company;
+
+------------------------------------------------------------------------
+
+select 
+A.total, B.total, C.total, D.total, 
+
+E.total, F.total, G.total, H.total, I.total, J.total, K.total, L.total, M.total, N.total, 
+
+O.total, P.total, Q.total, R.total, S.total, 
+
+T.total, U.total, V.total, W.total, X.total, 
+
+Y.total, Z.total, AA.total, BB.total, CC.total from
+
+(select count(*) as total from personal_taipei_1) A,
+(select count(*) as total from personal_taipei_2) B,
+(select count(*) as total from personal_taipei_3) C,
+(select count(*) as total from personal_taipei_4) D,
+
+(select count(*) as total from personal_newtaipei_1) E,
+(select count(*) as total from personal_newtaipei_2) F,
+(select count(*) as total from personal_newtaipei_3) G,
+(select count(*) as total from personal_newtaipei_4) H,
+(select count(*) as total from personal_newtaipei_5) I,
+(select count(*) as total from personal_newtaipei_6) J,
+(select count(*) as total from personal_newtaipei_7) K,
+(select count(*) as total from personal_newtaipei_8) L,
+(select count(*) as total from personal_newtaipei_9) M,
+(select count(*) as total from personal_newtaipei_10) N,
+
+(select count(*) as total from personal_taoyuan_1) O,
+(select count(*) as total from personal_taoyuan_2) P,
+(select count(*) as total from personal_taoyuan_3) Q,
+(select count(*) as total from personal_taoyuan_4) R,
+(select count(*) as total from personal_taoyuan_5) S,
+
+(select count(*) as total from personal_taichung_1) T,
+(select count(*) as total from personal_taichung_2) U,
+(select count(*) as total from personal_taichung_3) V,
+(select count(*) as total from personal_taichung_4) W,
+(select count(*) as total from personal_taichung_5) X,
+
+(select count(*) as total from personal_kaohsung_1) Y,
+(select count(*) as total from personal_kaohsung_2) Z,
+(select count(*) as total from personal_kaohsung_3) AA,
+(select count(*) as total from personal_kaohsung_4) BB,
+(select count(*) as total from personal_kaohsung_5) CC;

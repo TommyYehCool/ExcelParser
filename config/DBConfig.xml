@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpp-config>
+	<db-service>
+		<connection-url>jdbc:mysql://114.34.95.168:3306/land</connection-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<user-name>land</user-name>
+		<password>land</password>
+		<batch-process-size>200</batch-process-size>
+	</db-service>
+</cpp-config>

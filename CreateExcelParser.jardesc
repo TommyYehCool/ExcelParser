@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="MS950" standalone="no"?>
+<jardesc>
+    <jar path="ExcelParser/dist/ExcelParser.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/ExcelParser/CreateExcelParser.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.ui.controller"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelextractor.util"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelextractor.ui.main"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.exception"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.enu"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;view.fxml"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.vo"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.common.vo"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.config"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.db.handler"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.common.constant"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.format"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.common.util"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.ui.config"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.db.queue"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelextractor.ui.controller"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.gcn.main"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;view.css"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.gcn.config"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.excelparser.main"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.ui.enu"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.ui.main"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;view.images"/>
+        <javaElement handleIdentifier="=ExcelParser/src&lt;com.dreamer.ui.vo"/>
+    </selectedElements>
+</jardesc>

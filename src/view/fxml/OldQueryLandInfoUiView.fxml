@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.geometry.Insets?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1300.0" stylesheets="@../css/CompView.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dreamer.ui.controller.QueryLandInfoUiViewController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="750.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="801.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="60.0" prefWidth="740.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="801.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="100.0" prefWidth="750.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="801.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="750.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="750.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="770.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="750.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="801.0" minWidth="10.0" prefWidth="801.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="縣市" GridPane.halignment="RIGHT" />
+      <ComboBox fx:id="cmbCounties" prefHeight="23.0" prefWidth="167.0" GridPane.columnIndex="1">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <Label text="鄉鎮市" GridPane.columnIndex="2" GridPane.halignment="RIGHT">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <ComboBox fx:id="cmbTownships" prefHeight="23.0" prefWidth="130.0" GridPane.columnIndex="3">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <Label text="土地使用分區" GridPane.columnIndex="4" GridPane.halignment="RIGHT">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="tfdLandUsePartition" prefHeight="23.0" prefWidth="140.0" GridPane.columnIndex="5">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="段小段" GridPane.columnIndex="6" GridPane.halignment="RIGHT">
+      	 <padding>
+      	 	<Insets left="10.0" />
+      	 </padding>
+      </Label>
+      <TextField fx:id="tfdSegment" prefHeight="23.0" GridPane.columnIndex="7" GridPane.columnSpan="2">
+      	<GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="所有權人" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="tfdOwner" prefHeight="23.0" prefWidth="140.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="面積大於" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="tfdAreaBigger" prefHeight="23.0" prefWidth="140.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="面積小於" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <TextField fx:id="tfdAreaSmaller" prefHeight="23.0" prefWidth="140.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="667.0" spacing="10.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="2">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <children>
+            <RadioButton fx:id="rdoCompany" mnemonicParsing="false" text="公司" />
+            <RadioButton fx:id="rdoLegalPerson" mnemonicParsing="false" text="法人" />
+            <RadioButton fx:id="rdoOthers" mnemonicParsing="false" text="其他" />
+            <RadioButton fx:id="rdoPersonal" mnemonicParsing="false" text="個人" />
+            <RadioButton fx:id="rdoAll" mnemonicParsing="false" text="全部" />
+            <CheckBox fx:id="chkNeverContact" mnemonicParsing="false" text="未經聯絡" />
+         </children>
+      </HBox>
+      
+      <Button fx:id="btnQry" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="23.0" prefWidth="80.0" text="查詢" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnClear" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="23.0" prefWidth="80.0" text="清除" GridPane.columnIndex="7" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnCreateExcel" mnemonicParsing="false" onAction="#buttonHandler" prefHeight="23.0" prefWidth="90.0" text="產生Excel" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </Button>
+      
+      <TableView fx:id="tvLandInfos" prefHeight="480.0" prefWidth="996.0" tableMenuButtonVisible="true" GridPane.columnSpan="11" GridPane.rowIndex="3">
+        <columns>
+          <TableColumn prefWidth="89.0" text="所有權人列表" />
+          <TableColumn prefWidth="64.0" text="縣市" />
+            <TableColumn prefWidth="104.0" text="鄉鎮市" />
+            <TableColumn prefWidth="82.0" text="段小段" />
+            <TableColumn prefWidth="67.0" text="地號" />
+            <TableColumn prefWidth="90.0" text="當期公告現值" />
+            <TableColumn prefWidth="81.0" text="面積" />
+            <TableColumn prefWidth="220.0" text="土地使用分區" />
+            <TableColumn prefWidth="57.0" text="建物" />
+            <TableColumn minWidth="3.0" prefWidth="58.0" text="私法人" />
+            <TableColumn minWidth="6.0" prefWidth="59.0" text="自然人" />
+            <TableColumn prefWidth="110.0" text="電話" />
+            <TableColumn prefWidth="167.0" text="地址" />
+        </columns>
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TableView>
+
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="30.0" GridPane.columnSpan="4" GridPane.rowIndex="4">
+         <children>
+            <Button fx:id="btnPrevPage" mnemonicParsing="false" onAction="#buttonHandler" text="上一頁" />
+            <Button fx:id="btnFirstPage" mnemonicParsing="false" onAction="#buttonHandler" text="第一頁" />
+            <Button fx:id="btnNextPage" mnemonicParsing="false" onAction="#buttonHandler" text="下一頁" />
+         </children>
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </HBox>
+      <Label fx:id="lblMessage" text="Label" GridPane.columnIndex="3" GridPane.columnSpan="4" GridPane.rowIndex="4" />
+   </children>
+</GridPane>

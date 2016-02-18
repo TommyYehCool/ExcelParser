@@ -1,0 +1,243 @@
+找出重複的資料：
+
+SELECT * FROM company GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+SELECT * FROM legal_person GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+SELECT * FROM others GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+SELECT * FROM personal GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+<台北市>
+SELECT * FROM personal_taipei_1 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taipei_2 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taipei_3 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taipei_4 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+<新北市>
+SELECT * FROM personal_newtaipei_1 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_2 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_3 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_4 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_5 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+SELECT * FROM personal_newtaipei_6 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_7 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_8 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_9 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_newtaipei_10 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+<桃園市>
+SELECT * FROM personal_taoyuan_1 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taoyuan_2 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taoyuan_3 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taoyuan_4 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taoyuan_5 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+<台中市>
+SELECT * FROM personal_taichung_1 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taichung_2 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taichung_3 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taichung_4 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_taichung_5 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+<高雄市>
+SELECT * FROM personal_kaohsung_1 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_kaohsung_2 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_kaohsung_3 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_kaohsung_4 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+SELECT * FROM personal_kaohsung_5 GROUP BY VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO having count(*) > 1;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+刪除重複的資料:
+
+ALTER IGNORE TABLE company ADD UNIQUE INDEX company_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+ALTER IGNORE TABLE legal_person ADD UNIQUE INDEX legal_person_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+ALTER IGNORE TABLE others ADD UNIQUE INDEX others_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+<台北市>
+ALTER IGNORE TABLE personal_taipei_1 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taipei_2 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taipei_3 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taipei_4 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+<新北市>
+ALTER IGNORE TABLE personal_newtaipei_1 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_2 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_3 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_4 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_5 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+ALTER IGNORE TABLE personal_newtaipei_6 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_7 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_8 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_9 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_newtaipei_10 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+<桃園市>
+ALTER IGNORE TABLE personal_taoyuan_1 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taoyuan_2 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taoyuan_3 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taoyuan_4 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taoyuan_5 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+<台中市>
+ALTER IGNORE TABLE personal_taichung_1 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taichung_2 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taichung_3 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taichung_4 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_taichung_5 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+<高雄市>
+ALTER IGNORE TABLE personal_kaohsung_1 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_kaohsung_2 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_kaohsung_3 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_kaohsung_4 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+ALTER IGNORE TABLE personal_kaohsung_5 ADD UNIQUE INDEX personal_unique_index (VC_OWNER, VC_COUNTIES, VC_TOWNSHIPS, VC_SEGMENT, VC_LAND_NO);
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+不同 tables 資料移轉:
+
+insert into test_company select * from company order by vc_land_no limit 1,1;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+計算每個縣市鄉鎮區筆數:
+
+select count(*), VC_COUNTIES, VC_TOWNSHIPS from personal group by VC_COUNTIES, VC_TOWNSHIPS;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+計算每個縣市某幾區筆數:
+
+select count(*) from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('大安區(02)', '內湖區(14)', '松山區(01)');
+
+select count(*) from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('文山區(11)', '士林區(15)', '大同區(09)');
+
+select count(*) from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('北投區(16)', '信義區(17)', '南港區(13)');
+
+select count(*) from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('萬華區(05)', '中正區(03)', '中山區(10)');
+--------------------------------------------------------------------------------------------------------------------------------------------------
+資料分區分 table 移轉
+
+<台北市>
+insert into personal_taipei_1 select * from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('大安區(02)', '內湖區(14)', '松山區(01)');
+insert into personal_taipei_2 select * from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('文山區(11)', '士林區(15)', '大同區(09)');
+insert into personal_taipei_3 select * from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('北投區(16)', '信義區(17)', '南港區(13)');
+insert into personal_taipei_4 select * from personal where vc_counties = '台北市(A)' and VC_TOWNSHIPS in ('萬華區(05)', '中正區(03)', '中山區(10)');
+
+<新北市>
+insert into personal_newtaipei_1 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('新店區(07)', '泰山區(06)', '烏來區(11)');
+insert into personal_newtaipei_2 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('中和區(18)', '三重區(05)', '萬里區(26)');
+insert into personal_newtaipei_3 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('汐止區(28)', '瑞芳區(21)', '金山區(25)');
+insert into personal_newtaipei_4 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('淡水區(27)', '蘆洲區(04)', '五股區(03)');
+insert into personal_newtaipei_5 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('土城區(19)', '平溪區(22)');
+
+insert into personal_newtaipei_6 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('坪林區(10)', '林口區(02)', '雙溪區(23)', '鶯歌區(16)');
+insert into personal_newtaipei_7 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('永和區(33)', '貢寮區(24)', '石碇區(08)', '八里區(32)');
+insert into personal_newtaipei_8 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('板橋區(14)', '石門區(31)');
+insert into personal_newtaipei_9 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('三峽區(15)', '新莊區(01)');
+insert into personal_newtaipei_10 select * from personal where vc_counties = '新北市(F)' and VC_TOWNSHIPS in ('樹林區(17)', '深坑區(09)', '三芝區(30)');
+
+<桃園市>
+insert into personal_taoyuan_1 select * from personal where vc_counties = '桃園市(H)' and VC_TOWNSHIPS in ('中壢區(03)', '平鎮區(10)', '復興區(13)');
+insert into personal_taoyuan_2 select * from personal where vc_counties = '桃園市(H)' and VC_TOWNSHIPS in ('蘆竹區(05)', '楊梅區(04)');
+insert into personal_taoyuan_3 select * from personal where vc_counties = '桃園市(H)' and VC_TOWNSHIPS in ('龜山區(07)', '新屋區(11)', '大園區(06)');
+insert into personal_taoyuan_4 select * from personal where vc_counties = '桃園市(H)' and VC_TOWNSHIPS in ('八德區(08)', '龍潭區(09)', '觀音區(12)');
+insert into personal_taoyuan_5 select * from personal where vc_counties = '桃園市(H)' and VC_TOWNSHIPS in ('桃園區(01)', '大溪區(02)');
+
+<台中市>
+insert into personal_taichung_1 select * from personal where vc_counties = '台中市(B)' and VC_TOWNSHIPS in ('北屯區(B08)', '北區(B05)', '和平區(L21)', '大里區(L20)', '新社區(L11)');
+insert into personal_taichung_2 select * from personal where vc_counties = '台中市(B)' and VC_TOWNSHIPS in ('西屯區(B06)', '豐原區(L01)', '沙鹿區(L05)', '外埔區(L13)', '石岡區(L12)', '太平區(L19)');
+insert into personal_taichung_3 select * from personal where vc_counties = '台中市(B)' and VC_TOWNSHIPS in ('南屯區(B07)', '南區(B04)', '清水區(L04)', '梧棲區(L06)', '大安區(L14)', '后里區(L08)');
+insert into personal_taichung_4 select * from personal where vc_counties = '台中市(B)' and VC_TOWNSHIPS in ('龍井區(L17)', '大甲區(L03)', '東勢區(L02)', '大肚區(L16)', '中區(B01)', '東區(B02)');
+insert into personal_taichung_5 select * from personal where vc_counties = '台中市(B)' and VC_TOWNSHIPS in ('西區(B03)', '大雅區(L09)', '烏日區(L15)', '神岡區(L07)', '霧峰區(L18)');
+
+<高雄市>
+insert into personal_kaohsung_1 select * from personal where vc_counties = '高雄市(E)' and VC_TOWNSHIPS in ('三民區(05)', '鳳山區(12)', '甲仙區(33)', '桃源區(37)', '茄萣區(26)', '那瑪夏區(38)', '仁武區(17)', '田寮區(22)');
+insert into personal_kaohsung_2 select * from personal where vc_counties = '高雄市(E)' and VC_TOWNSHIPS in ('苓雅區(08)', '彌陀區(28)', '前金區(07)', '鹽埕區(01)', '永安區(27)', '六龜區(32)', '旗津區(10)', '鼓山區(02)', '茂林區(36)');
+insert into personal_kaohsung_3 select * from personal where vc_counties = '高雄市(E)' and VC_TOWNSHIPS in ('左營區(03)', '梓官區(29)', '阿蓮區(23)', '新興區(06)', '燕巢區(21)', '大樹區(15)', '杉林區(34)', '大寮區(14)');
+insert into personal_kaohsung_4 select * from personal where vc_counties = '高雄市(E)' and VC_TOWNSHIPS in ('楠梓區(04)', '內門區(35)', '鳥松區(18)', '橋頭區(20)', '湖內區(25)', '大社區(16)', '路竹區(24)', '旗山區(30)');
+insert into personal_kaohsung_5 select * from personal where vc_counties = '高雄市(E)' and VC_TOWNSHIPS in ('前鎮區(09)', '岡山區(19)', '林園區(13)', '美濃區(31)', '小港區(11)');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+<找出每張 Table 的縣市鄉鎮>
+select vc_counties, vc_townships from company group by vc_counties, vc_townships union
+select vc_counties, vc_townships from legal_person group by vc_counties, vc_townships union
+select vc_counties, vc_townships from others group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_taipei_1 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taipei_2 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taipei_3 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taipei_4 group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_newtaipei_1 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_2 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_3 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_4 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_5 group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_newtaipei_6 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_7 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_8 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_9 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_newtaipei_10 group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_taoyuan_1 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taoyuan_2 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taoyuan_3 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taoyuan_4 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taoyuan_5 group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_taichung_1 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taichung_2 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taichung_3 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taichung_4 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_taichung_5 group by vc_counties, vc_townships union
+
+select vc_counties, vc_townships from personal_kaohsung_1 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_kaohsung_2 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_kaohsung_3 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_kaohsung_4 group by vc_counties, vc_townships union
+select vc_counties, vc_townships from personal_kaohsung_5 group by vc_counties, vc_townships;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+<找出每張 Table 的土地使用分區>
+select distinct(vc_land_use_partition) from company union
+select distinct(vc_land_use_partition) from legal_person union
+select distinct(vc_land_use_partition) from others union
+
+select distinct(vc_land_use_partition) from personal_taipei_1 union
+select distinct(vc_land_use_partition) from personal_taipei_2 union
+select distinct(vc_land_use_partition) from personal_taipei_3 union
+select distinct(vc_land_use_partition) from personal_taipei_4 union
+
+select distinct(vc_land_use_partition) from personal_newtaipei_1 union
+select distinct(vc_land_use_partition) from personal_newtaipei_2 union
+select distinct(vc_land_use_partition) from personal_newtaipei_3 union
+select distinct(vc_land_use_partition) from personal_newtaipei_4 union
+select distinct(vc_land_use_partition) from personal_newtaipei_5 union
+
+select distinct(vc_land_use_partition) from personal_newtaipei_6 union
+select distinct(vc_land_use_partition) from personal_newtaipei_7 union
+select distinct(vc_land_use_partition) from personal_newtaipei_8 union
+select distinct(vc_land_use_partition) from personal_newtaipei_9 union
+select distinct(vc_land_use_partition) from personal_newtaipei_10 union
+
+select distinct(vc_land_use_partition) from personal_taoyuan_1 union
+select distinct(vc_land_use_partition) from personal_taoyuan_2 union
+select distinct(vc_land_use_partition) from personal_taoyuan_3 union
+select distinct(vc_land_use_partition) from personal_taoyuan_4 union
+select distinct(vc_land_use_partition) from personal_taoyuan_5 union
+
+select distinct(vc_land_use_partition) from personal_taichung_1 union
+select distinct(vc_land_use_partition) from personal_taichung_2 union
+select distinct(vc_land_use_partition) from personal_taichung_3 union
+select distinct(vc_land_use_partition) from personal_taichung_4 union
+select distinct(vc_land_use_partition) from personal_taichung_5 union
+
+select distinct(vc_land_use_partition) from personal_kaohsung_1 union
+select distinct(vc_land_use_partition) from personal_kaohsung_2 union
+select distinct(vc_land_use_partition) from personal_kaohsung_3 union
+select distinct(vc_land_use_partition) from personal_kaohsung_4 union
+select distinct(vc_land_use_partition) from personal_kaohsung_5;

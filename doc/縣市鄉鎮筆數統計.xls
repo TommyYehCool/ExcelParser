@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7710</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="122" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Column ss:Width="57"/>
+   <Column ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="1"/>
+   <Row>
+    <Cell><Data ss:Type="String">count(*)</Data></Cell>
+    <Cell><Data ss:Type="String">VC_COUNTIES</Data></Cell>
+    <Cell><Data ss:Type="String">VC_TOWNSHIPS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60414</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">中區(B01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">268956</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">北區(B05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">404556</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">北屯區(B08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">125292</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">南區(B04)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131208</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">南屯區(B07)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45347</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">后里區(L08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7376</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">和平區(L21)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43123</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">外埔區(L13)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50550</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">大安區(L14)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">106547</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">大甲區(L03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68200</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">大肚區(L16)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5151</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">大里區(L20)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81259</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">大雅區(L09)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18267</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">太平區(L19)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4073</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">新社區(L11)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100227</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">東勢區(L02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59007</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">東區(B02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57557</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">梧棲區(L06)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">153058</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">沙鹿區(L05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122365</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">清水區(L04)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80513</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">烏日區(L15)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30902</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">石岡區(L12)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75850</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">神岡區(L07)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97639</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">西區(B03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">205717</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">西屯區(B06)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">154199</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">豐原區(L01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72420</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">霧峰區(L18)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">115894</Data></Cell>
+    <Cell><Data ss:Type="String">台中市(B)</Data></Cell>
+    <Cell><Data ss:Type="String">龍井區(L17)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">168916</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">中山區(10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111552</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">中正區(03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">183396</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">信義區(17)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">228234</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">內湖區(14)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">216173</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">北投區(16)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155234</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">南港區(13)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">268861</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">士林區(15)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105001</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">大同區(09)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">236377</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">大安區(02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">272279</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">文山區(11)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">123942</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">松山區(01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">126893</Data></Cell>
+    <Cell><Data ss:Type="String">台北市(A)</Data></Cell>
+    <Cell><Data ss:Type="String">萬華區(05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">259285</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">三峽區(15)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">143435</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">三芝區(30)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">292227</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">三重區(05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">317923</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">中和區(18)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">90685</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">五股區(03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">139827</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">八里區(32)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">197517</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">土城區(19)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">172241</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">坪林區(10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">104416</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">平溪區(22)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">420363</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">新店區(07)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">240560</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">新莊區(01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">374405</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">板橋區(14)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">161243</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">林口區(02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">192565</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">樹林區(17)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">157526</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">永和區(33)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">285633</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">汐止區(28)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68794</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">泰山區(06)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">251439</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">淡水區(27)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105570</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">深坑區(09)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3880</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">烏來區(11)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82157</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">瑞芳區(21)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152358</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">石碇區(08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">71481</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">石門區(31)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69147</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">萬里區(26)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">102922</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">蘆洲區(04)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">155422</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">貢寮區(24)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80395</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">金山區(25)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134659</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">雙溪區(23)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131412</Data></Cell>
+    <Cell><Data ss:Type="String">新北市(F)</Data></Cell>
+    <Cell><Data ss:Type="String">鶯歌區(16)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">463450</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">中壢區(03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">209578</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">八德區(08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">182733</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">大園區(06)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">181173</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">大溪區(02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">143873</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">平鎮區(10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22120</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">復興區(13)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">208346</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">新屋區(11)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">373597</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">桃園區(01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">275931</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">楊梅區(04)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">311544</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">蘆竹區(05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">179223</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">觀音區(12)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">185692</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">龍潭區(09)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">219233</Data></Cell>
+    <Cell><Data ss:Type="String">桃園市(H)</Data></Cell>
+    <Cell><Data ss:Type="String">龜山區(07)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">189293</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">三民區(05)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">75621</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">仁武區(17)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53204</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">內門區(35)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21702</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">六龜區(32)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27255</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">前金區(07)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98936</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">前鎮區(09)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84591</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">大寮區(14)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35251</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">大樹區(15)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43472</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">大社區(16)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92732</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">小港區(11)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">95138</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">岡山區(19)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">116961</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">左營區(03)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27689</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">彌陀區(28)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36514</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">新興區(06)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">69651</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">旗山區(30)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11191</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">旗津區(10)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27857</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">杉林區(34)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93411</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">林園區(13)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6186</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">桃源區(37)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43460</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">梓官區(29)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111917</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">楠梓區(04)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46041</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">橋頭區(20)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23260</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">永安區(27)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45227</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">湖內區(25)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35975</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">燕巢區(21)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62917</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">田寮區(22)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8496</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">甲仙區(33)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93277</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">美濃區(31)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">118953</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">苓雅區(08)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5568</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">茂林區(36)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5784</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">茄萣區(26)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74264</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">路竹區(24)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4130</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">那瑪夏區(38)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39758</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">阿蓮區(23)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50489</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">鳥松區(18)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">173402</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">鳳山區(12)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24103</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">鹽埕區(01)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85524</Data></Cell>
+    <Cell><Data ss:Type="String">高雄市(E)</Data></Cell>
+    <Cell><Data ss:Type="String">鼓山區(02)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=SUM(R[-120]C:R[-1]C)"><Data ss:Type="Number">15117705</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>360</HorizontalResolution>
+    <VerticalResolution>360</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>111</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>123</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

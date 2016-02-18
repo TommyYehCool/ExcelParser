@@ -1,0 +1,1 @@
+select distinct(vc_land_use_partition) from company where vc_townships = '¤º´ò°Ï(14)' order by vc_land_use_partition;

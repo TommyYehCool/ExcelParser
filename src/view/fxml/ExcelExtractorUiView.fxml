@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../css/CompView.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dreamer.excelextractor.ui.controller.ExcelExtractorUiViewController">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label text="原始檔案路徑">
+         <GridPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="tfdSrcFile" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="結果目錄路徑" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </GridPane.margin>
+      </Label>
+      <TextField fx:id="tfdResultFolder" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" top="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Button fx:id="btnChooseSrcFile" mnemonicParsing="false" onAction="#handleButtonsAction" text="瀏覽" GridPane.columnIndex="2">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Button>
+      <Button fx:id="btnChooseResultFolder" mnemonicParsing="false" onAction="#handleButtonsAction" text="瀏覽" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Button>
+      <HBox GridPane.columnSpan="3" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="btnCreateResultFile" mnemonicParsing="false" onAction="#handleButtonsAction" text="產生" />
+            <Button fx:id="btnClear" mnemonicParsing="false" onAction="#handleButtonsAction" text="清除">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Label fx:id="lblResult">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" top="10.0" />
+         </GridPane.margin>
+      </HBox>
+   </children>
+</GridPane>

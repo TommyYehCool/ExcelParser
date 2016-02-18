@@ -1,0 +1,7 @@
+1、在MYSQL資料庫中找出重複的資料：
+
+SELECT * FROM `table` GROUP BY `id1`,`id2` HAVING count(*)>1;
+
+2、在MYSQL資料庫中刪除重複的資料：
+
+ALTER IGNORE TABLE `資料表名稱` ADD UNIQUE INDEX(`欄位1`,`欄位2`...);

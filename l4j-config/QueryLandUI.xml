@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>C:\ExcelParser\dist\ExcelParser.jar</jar>
+  <outfile>C:\ExcelParser\QueryLandUI.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>com.dreamer.ui.main.QueryLandInfoUiMain</mainClass>
+    <cp>C:\ExcelParser\lib\aquafx-0.1.jar</cp>
+    <cp>C:\ExcelParser\lib\frmcommon.jar</cp>
+    <cp>C:\ExcelParser\lib\gson-2.2.4.jar</cp>
+    <cp>C:\ExcelParser\lib\jsoup-1.7.2.jar</cp>
+    <cp>C:\ExcelParser\lib\log4j-1.2.16.jar</cp>
+    <cp>C:\ExcelParser\lib\mysql-connector-java.jar</cp>
+    <cp>C:\ExcelParser\lib\poi-3.11-20141221.jar</cp>
+    <cp>C:\ExcelParser\lib\poi-ooxml-3.11-20141221.jar</cp>
+    <cp>C:\ExcelParser\lib\poi-ooxml-schemas-3.11-20141221.jar</cp>
+    <cp>C:\ExcelParser\lib\poi-scratchpad-3.11-20141221.jar</cp>
+    <cp>C:\ExcelParser\lib\safe-util.jar</cp>
+    <cp>C:\ExcelParser\lib\xmlbeans-2.6.0.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>1024</initialHeapSize>
+    <maxHeapSize>1563</maxHeapSize>
+  </jre>
+</launch4jConfig>
